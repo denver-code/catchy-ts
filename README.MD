@@ -1,6 +1,6 @@
 # ▹ Run using docker #
 > [!NOTE]  
-> COMING SOON!
+> COMING SOON!  
 > For start make sure you have docker installed on your machine.
 ```bash
 sh scripts/run.sh
