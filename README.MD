@@ -1,13 +1,12 @@
 # ▹ Run using docker #
 > [!NOTE]  
-> COMING SOON!  
 > For start make sure you have docker installed on your machine.
 ```bash
 sh scripts/run.sh
 ```
 or
 ``` bash
-docker-compose up --build -d
+docker-compose up
 ```
 # ▹ Installation #
 > [!NOTE]  
