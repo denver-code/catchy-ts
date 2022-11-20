@@ -1,12 +1,10 @@
-import ErrorHandler from "../models/error_handler";
-
 class DevCaseController {
     defaultMethod() {
         return {
             constructorName: `${this.constructor.name}`,
-            name: `Exela.inc backend`,
-            version: `0.0.1`,
-            env: `TS/NODE.JS/EXPRESS`
+            name: `Catchy.inc backend`,
+            version: `v1 0.0.1`,
+            serverTime: new Date().toISOString()
         }
     }
 }

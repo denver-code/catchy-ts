@@ -1,9 +1,9 @@
 import { NextFunction, Request, Response, Router } from 'express';
-import ErrorTestController from '../../controllers/error_test_controller';
+import DevCaseController from '../../../controllers/devcase_controller';
 
-class ErrorTestRouter {
+class DevCaseRouter {
   private _router = Router();
-  private _controller = ErrorTestController;
+  private _controller = DevCaseController;
 
   get router() {
     return this._router;
@@ -27,4 +27,4 @@ class ErrorTestRouter {
   }
 }
 
-export = new ErrorTestRouter().router;
+export = new DevCaseRouter().router;
